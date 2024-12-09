@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.hero-section {
+    background: url('18.jpg') no-repeat center center/cover;
+    padding: 100px 0; /* Controla la altura de la cabecera */
+    color: white;
+    text-align: center;
+    position: relative; /* Si necesitas agregar overlays */
+}
+/*.hero-section {
+    background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+    padding: 100px 0;
+}*/
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-fluid {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}
